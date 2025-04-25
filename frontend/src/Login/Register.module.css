@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #162b5c; /* azul marinho */
+  padding: 1rem;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #162b5c;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.input:focus {
+  border-color: #162b5c;
+  outline: none;
+}
+
+.button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #162b5c;
+  color: white;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #0f1e3f;
+}
+
+.message {
+  margin-top: 1rem;
+  color: #162b5c;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.registerButton {
+  background-color: #162b5c;
+  color: white;
+}
+
+.registerButton:hover {
+  background-color: #0f1e3f;
+}
+
+.loginButton {
+  background-color: #f5f5f5;
+  color: #162b5c;
+  border: 1px solid #ccc;
+}
+
+.loginButton:hover {
+  background-color: #e6e6e6;
+}
